@@ -25,10 +25,18 @@ tests_require = [
 ]
 
 extras_require = {
-    "docs": ["Sphinx>=1.5.1",],
-    "mysql": ["invenio-db[mysql]>=1.0.0",],
-    "postgresql": ["invenio-db[postgresql]>=1.0.0",],
-    "sqlite": ["invenio-db>=1.0.0",],
+    "docs": [
+        "Sphinx>=1.5.1",
+    ],
+    "mysql": [
+        "invenio-db[mysql]>=1.0.0",
+    ],
+    "postgresql": [
+        "invenio-db[postgresql]>=1.0.0",
+    ],
+    "sqlite": [
+        "invenio-db>=1.0.0",
+    ],
     "tests": tests_require,
 }
 
@@ -47,7 +55,6 @@ install_requires = [
 ]
 
 packages = find_packages()
-
 
 # Get the version string. Cannot be done with import!
 g = {}
@@ -76,7 +83,9 @@ setup(
         "invenio_base.blueprints": [
             "invenio_config_tugraz = invenio_config_tugraz.views:blueprint",
         ],
-        "invenio_i18n.translations": ["messages = invenio_config_tugraz",],
+        "invenio_i18n.translations": [
+            "messages = invenio_config_tugraz",
+        ],
         "invenio_config.module": [
             "invenio_config_tugraz = invenio_config_tugraz.config",
         ],

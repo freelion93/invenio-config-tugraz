@@ -14,7 +14,6 @@ INVENIO_CONFIG_TUGRAZ_DEFAULT_VALUE = "foobar"
 INVENIO_CONFIG_TUGRAZ_BASE_TEMPLATE = "invenio_config_tugraz/base.html"
 """Default base template for the demo page."""
 
-
 # Invenio-App
 # ===========
 # See https://invenio-app.readthedocs.io/en/latest/configuration.html
@@ -87,7 +86,6 @@ MAIL_SUPPRESS_SEND = False
 #    'Content-Type',
 # ]
 # REST_ENABLE_CORS = True
-
 
 # Invenio-shibboleth
 # ===========
