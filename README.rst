@@ -23,7 +23,7 @@
 
 .. image:: https://readthedocs.org/projects/invenio-config-tugraz/badge/?version=latest
         :target: https://invenio-config-tugraz.readthedocs.io/en/latest/?badge=latest
-        
+
 .. image:: https://coveralls.io/repos/github/mb-wali/invenio-config-tugraz/badge.svg?branch=master
         :target: https://coveralls.io/github/mb-wali/invenio-config-tugraz?branch=master
 
