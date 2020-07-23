@@ -5,12 +5,11 @@
 # invenio-config-tugraz is free software; you can redistribute it and/or
 # modify it under the terms of the MIT License; see LICENSE file for more
 # details.
-
 """invenio module that adds tugraz configs."""
-
 import os
 
-from setuptools import find_packages, setup
+from setuptools import find_packages
+from setuptools import setup
 
 readme = open("README.rst").read()
 history = open("CHANGES.rst").read()
