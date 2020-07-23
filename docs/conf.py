@@ -57,10 +57,9 @@ author = u"Mojib Wali"
 # Get the version string. Cannot be done with import!
 g = {}
 with open(
-    os.path.join(
-        os.path.dirname(__file__), "..", "invenio_config_tugraz", "version.py"
-    ),
-    "rt",
+        os.path.join(os.path.dirname(__file__), "..", "invenio_config_tugraz",
+                     "version.py"),
+        "rt",
 ) as fp:
     exec(fp.read(), g)
     version = g["__version__"]
@@ -112,7 +111,6 @@ pygments_style = "sphinx"
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = False
 
-
 # -- Options for HTML output ----------------------------------------------
 html_theme = "alabaster"
 
@@ -124,8 +122,10 @@ html_theme_options = {
     "github_banner": True,
     "show_powered_by": False,
     "extra_nav_links": {
-        "invenio-config-tugraz@GitHub": "https://github.com/mb-wali/invenio-config-tugraz",
-        "invenio-config-tugraz@PyPI": "https://pypi.python.org/pypi/invenio-config-tugraz/",
+        "invenio-config-tugraz@GitHub":
+        "https://github.com/mb-wali/invenio-config-tugraz",
+        "invenio-config-tugraz@PyPI":
+        "https://pypi.python.org/pypi/invenio-config-tugraz/",
     },
 }
 
@@ -278,24 +278,20 @@ latex_documents = [
 # If false, no module index is generated.
 # latex_domain_indices = True
 
-
 # -- Options for manual page output ---------------------------------------
 
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
-man_pages = [
-    (
-        master_doc,
-        "invenio-config-tugraz",
-        u"invenio-config-tugraz Documentation",
-        [author],
-        1,
-    )
-]
+man_pages = [(
+    master_doc,
+    "invenio-config-tugraz",
+    u"invenio-config-tugraz Documentation",
+    [author],
+    1,
+)]
 
 # If true, show URL addresses after external links.
 # man_show_urls = False
-
 
 # -- Options for Texinfo output -------------------------------------------
 
@@ -325,7 +321,6 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 # texinfo_no_detailmenu = False
-
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {
