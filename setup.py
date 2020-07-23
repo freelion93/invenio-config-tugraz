@@ -35,7 +35,7 @@ extras_require = {
     'postgresql': [
         'invenio-db[postgresql]>=1.0.0',
     ],
-     'sqlite': [
+    'sqlite': [
         'invenio-db>=1.0.0',
     ],
     'tests': tests_require,
